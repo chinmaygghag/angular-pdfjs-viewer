@@ -70,7 +70,7 @@
     
     module.directive('pdfjsViewer', ['$interval', function ($interval) {
         return {
-            template: '<pdfjs-wrapper>\n' +
+            template: '<pdfjs-wrapper annotatable>\n' +
 '    <div id="outerContainer">\n' +
 '\n' +
 '      <div id="sidebarContainer">\n' +
